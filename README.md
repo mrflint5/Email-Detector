@@ -1,35 +1,39 @@
 # 📧 EMAIL DETECTOR – Fake Mail Classification App 🛡️
 
-Welcome to **EMAIL DETECTOR** – a sleek and intelligent Python-powered application that detects **fake/spam emails** using cutting-edge **Machine Learning**. This project demonstrates how NLP and classification algorithms can be applied in real-world scenarios to enhance digital safety.
+Welcome to **EMAIL DETECTOR**, a sleek Python-powered application that detects **fake/spam emails** using **Machine Learning**. This project leverages **Natural Language Processing (NLP)** and a **Naive Bayes classifier** to enhance digital safety by identifying malicious or unwanted emails.
 
 ---
 
 ## 🚀 Features
 
-🔹 Detects whether an email is **SPAM** or **HAM (genuine)**  
-🔹 Uses **TF-IDF Vectorization** for intelligent text representation  
-🔹 Built with **Naive Bayes** for efficient classification  
-🔹 Trained on a dataset of 1000 labeled emails  
-🔹 Instant predictions via terminal input  
-🔹 Auto-saves trained model for future use
+- 🔍 Classifies emails as **SPAM** or **HAM (genuine)** with high accuracy
+- 🧠 Uses **TF-IDF Vectorization** for smart text feature extraction
+- ⚡ Powered by **Naive Bayes** for fast and reliable predictions
+- 📚 Trained on a dataset of **1000 labeled email samples**
+- 💬 User-friendly terminal-based interface for real-time predictions
+- 💾 Saves the trained model using **joblib** for future use
+- 📈 Displays prediction confidence scores
 
 ---
 
 ## 🛠️ Tech Stack
 
-- 🐍 Python 3  
-- 📊 pandas  
-- 🤖 scikit-learn  
-- 💾 joblib  
+| Tool            | Purpose                              |
+|-----------------|--------------------------------------|
+| 🐍 **Python 3**  | Core programming language            |
+| 📊 **pandas**    | Data manipulation and preprocessing  |
+| 🤖 **scikit-learn** | Machine learning and NLP tools     |
+| 💾 **joblib**    | Model persistence (saving/loading)   |
 
 ---
 
 ## 🔍 How It Works
 
-1. Loads or trains a classifier on email content  
-2. Applies **TF-IDF vectorization**  
-3. Uses **Naive Bayes** to classify the email  
-4. Outputs prediction in the terminal interface  
+1. Loads a pre-trained **Naive Bayes classifier** or trains a new one if none exists
+2. Processes email text using **TF-IDF Vectorization** to extract features
+3. Predicts whether the email is **SPAM** or **HAM** using the trained model
+4. Outputs the prediction and confidence score in the terminal
+5. Saves the model for reuse
 
 ---
 
@@ -40,41 +44,57 @@ Welcome to **EMAIL DETECTOR** – a sleek and intelligent Python-powered applica
 ```bash
 git clone https://github.com/YOUR_USERNAME/Email-Detector.git
 cd Email-Detector
-📦 Step 2: Install Dependencies
-bash
-Copy
-Edit
+```
+
+### 📦 Step 2: Install Dependencies
+
+```bash
 pip install pandas scikit-learn joblib
-🚀 Step 3: Launch the App
-bash
-Copy
-Edit
+```
+
+### 🚀 Step 3: Launch the App
+
+```bash
 python fake_mail_detector.py
+```
+
 You'll be prompted to enter email content:
 
-pgsql
-Copy
-Edit
+```pgsql
 📨 Enter email content (or type 'exit' to quit):
-> Win a FREE iPhone now!
-🔎 This email is likely: SPAM
-📂 Project Structure
-bash
-Copy
-Edit
+> Win a FREE iPhone now! Click here!
+🔎 Prediction: SPAM (Confidence: 92%)
+```
+
+### 📂 Project Structure
+
+```bash
 Email-Detector/
-├── emails.csv              # Dataset containing 1000 email samples  
-├── fake_mail_detector.py   # Main script  
-└── README.md               # Project documentation  
-📸 Screenshots
-Click here to view screenshots
+├── data/
+│   └── emails.csv              # Dataset with 1000 labeled emails
+├── models/
+│   └── nb_model.joblib         # Saved Naive Bayes model
+├── fake_mail_detector.py       # Main script for training & prediction
+└── README.md                   # Project documentation
+```
 
-🤝 Connect with Me
-I'm always open to collaboration, feedback, or a friendly chat!
+### 📸 Screenshots
 
-📧 Email: sameermalik1419@gmail.com
+View the app in action: [Screenshot](https://drive.google.com/file/d/1TwmvZFbBPSBePjLfJ-i-A8tfjO8rGo5i/view?usp=drive_link)
 
-🔗 LinkedIn: Sameer Malik – Feel free to connect!
+---
 
-🙌 Credits
-Built with 💻 + ❤️ to demonstrate real-world machine learning applications in the fight against email spam.
+## 🤝 Connect with Me
+
+I'm open to feedback, collaboration, or a quick chat!
+
+📧 **Email**: [sameermalik1419@gmail.com](mailto:sameermalik1419@gmail.com)  
+🔗 **LinkedIn**: [Sameer Malik](https://linkedin.com/in/sameer-malik)
+
+---
+
+## 🙌 Credits
+
+Built with 💻 + ❤️ to fight email spam using machine learning. Thanks to **scikit-learn** for powering the NLP and classification.
+
+⭐ **If you like this project, please star the repo and share it!**
