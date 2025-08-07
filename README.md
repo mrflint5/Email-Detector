@@ -2,8 +2,6 @@
 
 Welcome to **EMAIL DETECTOR** – a sleek and intelligent Python-powered application that detects **fake/spam emails** using cutting-edge **Machine Learning**. This project demonstrates how NLP and classification algorithms can be applied in real-world scenarios to enhance digital safety.
 
-![📸 Working Screenshot](https://drive.google.com/uc?id=1TwmvZFbBPSBePjLfJ-i-A8tfjO8rGo5i)
-
 ---
 
 ## 🚀 Features
@@ -19,19 +17,19 @@ Welcome to **EMAIL DETECTOR** – a sleek and intelligent Python-powered applica
 
 ## 🛠️ Tech Stack
 
-- 🐍 Python 3
-- 📊 pandas
-- 🤖 scikit-learn
-- 💾 joblib
+- 🐍 Python 3  
+- 📊 pandas  
+- 🤖 scikit-learn  
+- 💾 joblib  
 
 ---
 
 ## 🔍 How It Works
 
-1. Loads or trains a classifier on email content
-2. Applies **TF-IDF vectorization**
-3. Uses **Naive Bayes** to classify the email
-4. Outputs prediction in the terminal interface
+1. Loads or trains a classifier on email content  
+2. Applies **TF-IDF vectorization**  
+3. Uses **Naive Bayes** to classify the email  
+4. Outputs prediction in the terminal interface  
 
 ---
 
@@ -42,50 +40,41 @@ Welcome to **EMAIL DETECTOR** – a sleek and intelligent Python-powered applica
 ```bash
 git clone https://github.com/YOUR_USERNAME/Email-Detector.git
 cd Email-Detector
-```
-
-### 📦 Step 2: Install Dependencies
-
-```bash
+📦 Step 2: Install Dependencies
+bash
+Copy
+Edit
 pip install pandas scikit-learn joblib
-```
-
-### 🚀 Step 3: Launch the App
-
-```bash
+🚀 Step 3: Launch the App
+bash
+Copy
+Edit
 python fake_mail_detector.py
-```
-
 You'll be prompted to enter email content:
 
-```
+pgsql
+Copy
+Edit
 📨 Enter email content (or type 'exit' to quit):
 > Win a FREE iPhone now!
 🔎 This email is likely: SPAM
-```
-
----
-
-## 📂 Project Structure
-
-```
+📂 Project Structure
+bash
+Copy
+Edit
 Email-Detector/
-├── emails.csv              # Dataset containing 1000 email samples
-├── fake_mail_detector.py   # Main script
-└── README.md               # Project documentation
-```
+├── emails.csv              # Dataset containing 1000 email samples  
+├── fake_mail_detector.py   # Main script  
+└── README.md               # Project documentation  
+📸 Screenshots
+Click here to view screenshots
 
----
-
-## 🤝 Connect with Me
-
+🤝 Connect with Me
 I'm always open to collaboration, feedback, or a friendly chat!
 
-- 📧 Email: [sameermalik1419@gmail.com](mailto:sameermalik1419@gmail.com)
-- 🔗 LinkedIn: [Sameer Malik](https://www.linkedin.com/in/sameer-malik-b5b8772b9) – *Feel free to connect!*
+📧 Email: sameermalik1419@gmail.com
 
----
+🔗 LinkedIn: Sameer Malik – Feel free to connect!
 
-## 🙌 Credits
-
+🙌 Credits
 Built with 💻 + ❤️ to demonstrate real-world machine learning applications in the fight against email spam.
