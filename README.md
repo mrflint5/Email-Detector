@@ -1,4 +1,4 @@
-# 📧 EMAIL DETECTOR – Fake Mail Classification App 🛡️
+# 📧 EMAIL DETECTOR – Fake Mail Classification App 🛡️.
 
 Welcome to **EMAIL DETECTOR**, a sleek Python-powered application that detects **fake/spam emails** using **Machine Learning**. This project leverages **Natural Language Processing (NLP)** and a **Naive Bayes classifier** to enhance digital safety by identifying malicious or unwanted emails.
 
